@@ -10,3 +10,18 @@ pip install django
 3. create a django project scaffold using cli
 django-admin help
 django-admin startproject btre .
+
+4. goto virtual env and run server
+python manage.py runserver
+
+5. create pages app and add to btre/ settings
+python manage.py startapp pages
+
+# In django you have a project under which you can have multiple apps
+
+# use pip freeze to find items installed in venv
+
+# jinja is the template engine that django uses by default
+
+# collect static files
+python manage.py collectstatic
